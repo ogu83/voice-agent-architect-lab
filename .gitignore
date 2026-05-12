@@ -10,3 +10,7 @@ __pycache__/
 # OS/editor
 .DS_Store
 Thumbs.db
+.vs/
+
+# Local demo artifacts
+ep1-realtime-tts/ep1-realtime-tts/
