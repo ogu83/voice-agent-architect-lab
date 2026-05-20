@@ -29,6 +29,8 @@ pytest -q
 ```bash
 uvicorn ep1-realtime-tts.server:app --reload
 python ep2-telephony-bridge\bridge\media_stream.py
-python ep3-voice-design\demo\statue_demo.py
+python ep3-voice-design\demo\statue_demo.py path\to\statue.jpg --classify-only
+python ep3-voice-design\demo\voice_design_demo.py
+python ep3-voice-design\demo\full_pipeline_demo.py path\to\statue.jpg path\to\portrait.jpg path\to\artifact.jpg --play
 python ep4-langgraph-orchestration\graph\supervisor.py
 ```
